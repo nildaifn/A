@@ -1,6 +1,6 @@
 # ⛓项目永久链接：https://github.com/itzhangbao/remove-repos
 # 将 DELETE_KOKEN 和 GithubName 都替换为自己的
-DELETE_KOKEN="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"
+DELETE_KOKEN= ${{ secrets.G_TOKEN }}
 GithubName="nildaifn"
 
 for repName in $(cat repos.txt)
